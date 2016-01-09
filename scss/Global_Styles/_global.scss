@@ -1,0 +1,43 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+html{
+
+    background:$white;
+    color:$gray;
+ 
+}
+
+img{
+    max-width:70%;
+    display: $block;
+    margin: $margin-auto;
+}
+
+ul{
+    list-style-type: $none;
+    text-align: $text-center;
+    width:80%;
+    margin: $margin-auto;
+}
+
+a{
+    text-decoration: $none;
+    color: $gray ;   
+}
+
+a:hover{
+    color:darken( $mint, 30% );
+}
+
+h2 , p{
+    text-align: $text-center;    
+}
+
+p{
+    width:75%;
+    display: $block;
+    margin: $margin-auto;
+}

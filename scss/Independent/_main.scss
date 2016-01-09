@@ -1,0 +1,22 @@
+.Portfolio{
+    background:$mint;
+     margin-top: 50px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    img{
+    max-width:94%;
+}
+    p {
+    padding-bottom: 45px;
+}
+    h2{
+    width:100%;
+        padding:5px 0;
+}
+    .item{
+    @include item;
+    
+    }
+}
+
+  

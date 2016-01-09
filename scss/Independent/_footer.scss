@@ -1,0 +1,40 @@
+footer{
+    padding:35px 0px;
+    width:90%;
+    margin:$margin-auto;
+    margin-top:-10px;
+    border-top: solid 1px #ccc;
+    @include foot;
+    li{
+    width:110px;
+    display: inline-block; 
+    @include list-position;
+    }
+}
+.mobile_footer{
+    width:85%;
+    float: $left;
+    li:nth-child(1){
+    float:$left;
+}
+    li:last-child{
+    float:$right;
+}
+}
+.large_footer{
+    display: $none;
+  
+}
+.contact{
+    padding: 15px;
+    p{
+        
+        padding:7px;
+        font-weight: bold;
+        width:75%;
+    }
+    li{
+        @include list-position;
+    }
+}
+
