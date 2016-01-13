@@ -6,24 +6,23 @@ footer{
     border-top: solid 1px #ccc;
     @include foot;
     li{
-    width:110px;
-    display: inline-block; 
-    @include list-position;
+        width:110px;
+        display: inline-block; 
+        @include list-position;
     }
 }
 .mobile_footer{
     width:85%;
     float: $left;
     li:nth-child(1){
-    float:$left;
+        float:$left;
 }
     li:last-child{
-    float:$right;
-}
+        float:$right;
+    }
 }
 .large_footer{
-    display: $none;
-  
+        display: $none;
 }
 .contact{
     padding: 15px;

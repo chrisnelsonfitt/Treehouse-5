@@ -1,19 +1,16 @@
 header{
     @include header-t;
-   
     li{
        
         display: none;
         @include list-position;
         @media (min-width:1024px){
             width:150px;
-            display:inline-block; 
-             
+            display:inline-block;    
         }
         background:$mint;
         
     }
-    
     h2{
         
         padding:10px;
@@ -21,12 +18,6 @@ header{
     p{
         padding:20px;  
     }  
-}
-body{
-    @media (min-width:768px){
-        clear:both;
-    }
- 
 }
 .profile_intro{
     @media (min-width:1024px){
