@@ -2,14 +2,13 @@ header{
     @include header-t;
     li{
        
-        display: none;
+        
         @include list-position;
         @media (min-width:1024px){
             width:150px;
             display:inline-block;    
         }
-        background:$mint;
-        
+     
     }
     h2{
         

@@ -1,5 +1,9 @@
+.footer-padding{
+padding:35px 0px;
+}
+
 footer{
-    padding:35px 0px;
+    @extend .footer-padding;
     width:90%;
     margin:$margin-auto;
     margin-top:-10px;

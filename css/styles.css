@@ -1,3 +1,6 @@
+.width-setting, img, p {
+  max-width: 70%; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -7,7 +10,6 @@ html {
   color: #4F4F4F; }
 
 img {
-  max-width: 70%;
   display: block;
   margin: auto; }
 
@@ -28,7 +30,6 @@ h2, p {
   text-align: center; }
 
 p {
-  width: 75%;
   display: block;
   margin: auto; }
 
@@ -56,23 +57,20 @@ p {
     font-size: 1.333rem;
     margin-top: 25px;
     margin-left: 125px; } }
-header li {
-  display: none;
-  background: #D0E9DD; }
-  @media (min-width: 768px) {
-    header li {
-      padding: 10px;
-      position: relative;
-      margin: 10px auto;
-      border-radius: 2px;
-      width: 100%;
-      margin-left: -15px;
-      background: #E8EAE9;
-      display: inherit; } }
-  @media (min-width: 1024px) {
-    header li {
-      width: 150px;
-      display: inline-block; } }
+@media (min-width: 768px) {
+  header li {
+    padding: 10px;
+    position: relative;
+    margin: 10px auto;
+    border-radius: 2px;
+    width: 100%;
+    margin-left: -15px;
+    background: #E8EAE9;
+    display: inherit; } }
+@media (min-width: 1024px) {
+  header li {
+    width: 150px;
+    display: inline-block; } }
 header h2 {
   padding: 10px; }
 header p {
@@ -82,15 +80,17 @@ header p {
   .profile_intro {
     clear: both; } }
 
+.flex-position, .Portfolio {
+  display: inline-flex;
+  flex-wrap: wrap; }
+
 @media (min-width: 768px) {
   main {
     clear: both; } }
 
 .Portfolio {
   background: #D0E9DD;
-  margin-top: 50px;
-  display: inline-flex;
-  flex-wrap: wrap; }
+  margin-top: 50px; }
   .Portfolio img {
     max-width: 94%; }
   .Portfolio p {
@@ -106,8 +106,10 @@ header p {
       width: 33%;
       margin: auto; } }
 
+.footer-padding, footer {
+  padding: 35px 0px; }
+
 footer {
-  padding: 35px 0px;
   width: 90%;
   margin: auto;
   margin-top: -10px;
