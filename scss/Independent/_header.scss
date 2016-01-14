@@ -1,22 +1,55 @@
 header{
+    img{
+
+         @media (min-width:768px){
+             float:$right;
+             margin-right:30px;
+             margin-top: 10px;
+        }
+            
+        
+}
     @include header-t;
     li{
-       
+        @extend %header-padding;
+        @extend %margin_5px;
+        background:$mint;
+      
         
         @include list-position;
-        @media (min-width:1024px){
+        @media (min-width:768px){
             width:150px;
-            display:inline-block;    
+            display:inline-block; 
+            float:$right;
+           
         }
+     
      
     }
     h2{
         
-        padding:10px;
+        @extend %header-padding;
+        @media (min-width:768px){
+        float:$left;
+            
+        }
     }
     p{
-        padding:20px;  
+        @extend %header-padding;
+        @media (min-width:768px){
+        float:$left;
+            max-width:40%;
+            margin-top:55px;
+            margin-left:15px;
+            
+            
+        }
+        
+        @media (min-width:1024px){
+            margin-left:100px;
+        }
     }  
+    
 }
 .profile_intro{
     @media (min-width:1024px){

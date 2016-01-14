@@ -1,9 +1,5 @@
-.footer-padding{
-padding:35px 0px;
-}
-
 footer{
-    @extend .footer-padding;
+    @extend %footer-padding;
     width:90%;
     margin:$margin-auto;
     margin-top:-10px;
@@ -40,4 +36,5 @@ footer{
         @include list-position;
     }
 }
+
 
